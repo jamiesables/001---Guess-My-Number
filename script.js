@@ -30,9 +30,11 @@ document.querySelector('.check').addEventListener('click', function() {
         if (score > highScore) {
             highScore = score;
         }
+
+
+        //Code to see if guess is bigger or lower
         document.querySelector('.highscore').textContent = highScore
-    } 
-    
+    }      
     else if (guess > secretNumber) {
 
         //Game over if score reaches 0    
